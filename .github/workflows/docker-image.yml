@@ -14,4 +14,4 @@ jobs:
         run: |
           docker build -t asrazahoor/python_auth_4 .
           docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }}
-          docker push asrazahoor/python_auth_4
+          docker pull asrazahoor/python_auth_4
