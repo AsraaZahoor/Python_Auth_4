@@ -12,6 +12,6 @@ jobs:
 
       - name: Build and Push Docker Image
         run: |
-          docker build -t AsraaZahoor/Python_Auth_4 .
+          docker build -t asraazahoor/python_auth_4 .
           docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }}
-          docker push asrazahoor/Python_Auth_4
+          docker push asrazahoor/python_auth_4
